@@ -14,14 +14,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lesson3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="55" column="10" lean-forward="true" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+            <state relative-caret-position="2299">
+              <caret line="137" column="17" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Lesson4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7">
+              <caret line="64" column="45" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/libs/selenium-server-standalone-3.4.0.jar!/org/openqa/selenium/By.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="950">
+              <caret line="61" column="20" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -38,6 +59,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>JavaAppiumAutomation</find>
+      <find>//*[@resource-id = 'org.wikipedia:id</find>
+      <find>By.xpath(&quot;//*[contains(@text, 'Search Wikipedia')]&quot;</find>
     </findStrings>
     <replaceStrings>
       <replace>automationCourse</replace>
@@ -57,14 +80,20 @@
         <option value="$PROJECT_DIR$/src/MainClass.java" />
         <option value="$PROJECT_DIR$/src/AppTests.java" />
         <option value="$PROJECT_DIR$/src/Lesson3.java" />
+        <option value="$PROJECT_DIR$/src/Lesson4.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="67" />
-    <option name="y" value="108" />
-    <option name="width" value="1943" />
-    <option name="height" value="1099" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1992" />
+    <option name="width" value="1935" />
+    <option name="height" value="1398" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -72,8 +101,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -101,6 +128,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -133,7 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Lesson3.testCancelSearch">
+  <component name="RunManager" selected="JUnit.Lesson4.saveTwoArticlesToMyList">
     <configuration name="Lesson3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="automationCourse" />
       <option name="PACKAGE_NAME" value="" />
@@ -163,20 +192,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Lesson4.saveTwoArticlesToMyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="automationCourse" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainClassTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="Lesson4" />
+      <option name="METHOD_NAME" value="saveTwoArticlesToMyList" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainClassTest.testGetClassString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Lesson4.titleExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="automationCourse" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainClassTest" />
-      <option name="METHOD_NAME" value="testGetClassString" />
+      <option name="MAIN_CLASS_NAME" value="Lesson4" />
+      <option name="METHOD_NAME" value="titleExists" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -184,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Lesson4.saveTwoArticlesToMyList" />
+        <item itemvalue="JUnit.Lesson4.titleExists" />
         <item itemvalue="JUnit.Lesson3.testCancelSearch" />
         <item itemvalue="JUnit.Lesson3.testCompareText" />
         <item itemvalue="JUnit.Lesson3" />
-        <item itemvalue="JUnit.MainClassTest" />
-        <item itemvalue="JUnit.MainClassTest.testGetClassString" />
       </list>
     </recent_temporary>
   </component>
@@ -213,42 +243,51 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Lesson3_testCancelSearch - 2021.07.03 at 19h 13m 23s.xml">
-      <configuration name="Lesson3.testCancelSearch" configurationId="JUnit" />
+    <history-entry file="Lesson4_saveTwoArticlesToMyList - 2021.07.07 at 12h 57m 55s.xml">
+      <configuration name="Lesson4.saveTwoArticlesToMyList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Lesson3_testCancelSearch - 2021.07.03 at 19h 19m 06s.xml">
-      <configuration name="Lesson3.testCancelSearch" configurationId="JUnit" />
+    <history-entry file="Lesson4_saveTwoArticlesToMyList - 2021.07.07 at 13h 02m 26s.xml">
+      <configuration name="Lesson4.saveTwoArticlesToMyList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Lesson3_testCancelSearch - 2021.07.03 at 19h 20m 15s.xml">
-      <configuration name="Lesson3.testCancelSearch" configurationId="JUnit" />
+    <history-entry file="Lesson4_saveTwoArticlesToMyList - 2021.07.07 at 14h 20m 07s.xml">
+      <configuration name="Lesson4.saveTwoArticlesToMyList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Lesson3_testCancelSearch - 2021.07.03 at 19h 23m 14s.xml">
-      <configuration name="Lesson3.testCancelSearch" configurationId="JUnit" />
+    <history-entry file="Lesson4_titleExists - 2021.07.07 at 17h 05m 49s.xml">
+      <configuration name="Lesson4.titleExists" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Lesson3_testCancelSearch - 2021.07.03 at 19h 48m 15s.xml">
-      <configuration name="Lesson3.testCancelSearch" configurationId="JUnit" />
+    <history-entry file="Lesson4_titleExists - 2021.07.07 at 17h 08m 18s.xml">
+      <configuration name="Lesson4.titleExists" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Lesson3_testCancelSearch - 2021.07.03 at 19h 49m 11s.xml">
-      <configuration name="Lesson3.testCancelSearch" configurationId="JUnit" />
+    <history-entry file="Lesson4_titleExists - 2021.07.12 at 14h 00m 04s.xml">
+      <configuration name="Lesson4.titleExists" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Lesson3_testCancelSearch - 2021.07.03 at 19h 50m 09s.xml">
-      <configuration name="Lesson3.testCancelSearch" configurationId="JUnit" />
+    <history-entry file="Lesson4_titleExists - 2021.07.12 at 14h 02m 11s.xml">
+      <configuration name="Lesson4.titleExists" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Lesson3_testCancelSearch - 2021.07.03 at 19h 53m 09s.xml">
-      <configuration name="Lesson3.testCancelSearch" configurationId="JUnit" />
+    <history-entry file="Lesson4_titleExists - 2021.07.12 at 14h 11m 52s.xml">
+      <configuration name="Lesson4.titleExists" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Lesson3_testCancelSearch - 2021.07.03 at 19h 54m 35s.xml">
-      <configuration name="Lesson3.testCancelSearch" configurationId="JUnit" />
+    <history-entry file="Lesson4_saveTwoArticlesToMyList - 2021.07.12 at 14h 15m 23s.xml">
+      <configuration name="Lesson4.saveTwoArticlesToMyList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Lesson3_testCancelSearch - 2021.07.03 at 20h 02m 18s.xml">
-      <configuration name="Lesson3.testCancelSearch" configurationId="JUnit" />
+    <history-entry file="Lesson4_saveTwoArticlesToMyList - 2021.07.12 at 14h 17m 40s.xml">
+      <configuration name="Lesson4.saveTwoArticlesToMyList" configurationId="JUnit" />
     </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16486487" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.140826" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -257,25 +296,54 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3489736" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8016249" visible="true" weight="0.48973608" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49966148" weight="0.32937685" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="SBT Console" order="8" weight="0.32991204" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32991204" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.2228739" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.19837509" side_tool="true" weight="0.36053413" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32886598" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.14759648" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32972974" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.140826" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8016249" visible="true" weight="0.36053413" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49966148" weight="0.32937685" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="SBT Console" order="8" weight="0.32991204" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32991204" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.19837509" side_tool="true" visible="true" weight="0.36053413" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32886598" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32972974" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -354,13 +422,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/junit-4.12.jar!/org/junit/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/libs/java-client-4.1.2.jar!/org/openqa/selenium/WebElement.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -382,10 +443,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/selenium-server-standalone-3.4.0.jar!/org/openqa/selenium/support/ui/WebDriverWait.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lesson3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="55" column="10" lean-forward="true" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+        <state relative-caret-position="2299">
+          <caret line="137" column="17" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/selenium-server-standalone-3.4.0.jar!/org/openqa/selenium/By.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="61" column="20" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lesson4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="64" column="45" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
