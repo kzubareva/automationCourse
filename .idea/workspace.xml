@@ -14,35 +14,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lesson3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2299">
-              <caret line="137" column="17" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Lesson4.java">
+        <entry file="file://$PROJECT_DIR$/src/lib/ui/ArticlePageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7">
-              <caret line="64" column="45" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="45" />
+            <state relative-caret-position="472">
+              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/libs/selenium-server-standalone-3.4.0.jar!/org/openqa/selenium/By.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="950">
-              <caret line="61" column="20" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -80,7 +59,19 @@
         <option value="$PROJECT_DIR$/src/MainClass.java" />
         <option value="$PROJECT_DIR$/src/AppTests.java" />
         <option value="$PROJECT_DIR$/src/Lesson3.java" />
+        <option value="$PROJECT_DIR$/src/tests/Lesson3.java" />
+        <option value="$PROJECT_DIR$/src/tests/searchTests.java" />
+        <option value="$PROJECT_DIR$/src/lib/ui/MainPafeObject.java" />
+        <option value="$PROJECT_DIR$/src/lib/ui/MyListPageObject.java" />
         <option value="$PROJECT_DIR$/src/Lesson4.java" />
+        <option value="$PROJECT_DIR$/src/lib/ui/ArticlePageObject.java" />
+        <option value="$PROJECT_DIR$/src/tests/MyListTests.java" />
+        <option value="$PROJECT_DIR$/src/tests/SearchTests.java" />
+        <option value="$PROJECT_DIR$/src/lib/CoreTestCase.java" />
+        <option value="$PROJECT_DIR$/src/lib/ui/SearchPageObject.java" />
+        <option value="$PROJECT_DIR$/src/lib/ui/NavigationUI.java" />
+        <option value="$PROJECT_DIR$/src/lib/ui/MyListsPageObject.java" />
+        <option value="$PROJECT_DIR$/src/lib/ui/MainPageObject.java" />
       </list>
     </option>
   </component>
@@ -90,10 +81,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1992" />
-    <option name="width" value="1935" />
-    <option name="height" value="1398" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -124,12 +116,31 @@
               <item name="automationCourse" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="automationCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automationCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automationCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automationCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automationCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automationCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -162,36 +173,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Lesson4.saveTwoArticlesToMyList">
-    <configuration name="Lesson3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="automationCourse" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Lesson3" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lesson3.testCancelSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="automationCourse" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Lesson3" />
-      <option name="METHOD_NAME" value="testCancelSearch" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lesson3.testCompareText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="automationCourse" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Lesson3" />
-      <option name="METHOD_NAME" value="testCompareText" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MyListTests.testTitleExists">
     <configuration name="Lesson4.saveTwoArticlesToMyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="automationCourse" />
       <option name="PACKAGE_NAME" value="" />
@@ -202,11 +184,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lesson4.titleExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Lesson4.testSaveTwoArticlesToMyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="automationCourse" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Lesson4" />
-      <option name="METHOD_NAME" value="titleExists" />
+      <option name="METHOD_NAME" value="testSaveTwoArticlesToMyList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyListTests.testSaveTwoArticlesToMyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="automationCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.MyListTests" />
+      <option name="METHOD_NAME" value="testSaveTwoArticlesToMyList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyListTests.testTitleExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="automationCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.MyListTests" />
+      <option name="METHOD_NAME" value="testTitleExists" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchTests.testCancelSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="automationCourse" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SearchTests" />
+      <option name="METHOD_NAME" value="testCancelSearch" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -214,11 +238,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyListTests.testTitleExists" />
+        <item itemvalue="JUnit.MyListTests.testSaveTwoArticlesToMyList" />
+        <item itemvalue="JUnit.Lesson4.testSaveTwoArticlesToMyList" />
+        <item itemvalue="JUnit.SearchTests.testCancelSearch" />
         <item itemvalue="JUnit.Lesson4.saveTwoArticlesToMyList" />
-        <item itemvalue="JUnit.Lesson4.titleExists" />
-        <item itemvalue="JUnit.Lesson3.testCancelSearch" />
-        <item itemvalue="JUnit.Lesson3.testCompareText" />
-        <item itemvalue="JUnit.Lesson3" />
       </list>
     </recent_temporary>
   </component>
@@ -243,35 +267,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Lesson4_saveTwoArticlesToMyList - 2021.07.07 at 12h 57m 55s.xml">
-      <configuration name="Lesson4.saveTwoArticlesToMyList" configurationId="JUnit" />
+    <history-entry file="MyListTests_testSaveTwoArticlesToMyList - 2021.07.20 at 14h 08m 23s.xml">
+      <configuration name="MyListTests.testSaveTwoArticlesToMyList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Lesson4_saveTwoArticlesToMyList - 2021.07.07 at 13h 02m 26s.xml">
-      <configuration name="Lesson4.saveTwoArticlesToMyList" configurationId="JUnit" />
+    <history-entry file="MyListTests_testSaveTwoArticlesToMyList - 2021.07.20 at 14h 09m 35s.xml">
+      <configuration name="MyListTests.testSaveTwoArticlesToMyList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Lesson4_saveTwoArticlesToMyList - 2021.07.07 at 14h 20m 07s.xml">
-      <configuration name="Lesson4.saveTwoArticlesToMyList" configurationId="JUnit" />
+    <history-entry file="MyListTests_testSaveTwoArticlesToMyList - 2021.07.20 at 14h 12m 12s.xml">
+      <configuration name="MyListTests.testSaveTwoArticlesToMyList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Lesson4_titleExists - 2021.07.07 at 17h 05m 49s.xml">
-      <configuration name="Lesson4.titleExists" configurationId="JUnit" />
+    <history-entry file="MyListTests_testSaveTwoArticlesToMyList - 2021.07.20 at 14h 17m 21s.xml">
+      <configuration name="MyListTests.testSaveTwoArticlesToMyList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Lesson4_titleExists - 2021.07.07 at 17h 08m 18s.xml">
-      <configuration name="Lesson4.titleExists" configurationId="JUnit" />
+    <history-entry file="MyListTests_testSaveTwoArticlesToMyList - 2021.07.20 at 14h 29m 52s.xml">
+      <configuration name="MyListTests.testSaveTwoArticlesToMyList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Lesson4_titleExists - 2021.07.12 at 14h 00m 04s.xml">
-      <configuration name="Lesson4.titleExists" configurationId="JUnit" />
+    <history-entry file="MyListTests_testSaveTwoArticlesToMyList - 2021.07.20 at 14h 48m 12s.xml">
+      <configuration name="MyListTests.testSaveTwoArticlesToMyList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Lesson4_titleExists - 2021.07.12 at 14h 02m 11s.xml">
-      <configuration name="Lesson4.titleExists" configurationId="JUnit" />
+    <history-entry file="MyListTests_testSaveTwoArticlesToMyList - 2021.07.20 at 14h 51m 02s.xml">
+      <configuration name="MyListTests.testSaveTwoArticlesToMyList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Lesson4_titleExists - 2021.07.12 at 14h 11m 52s.xml">
-      <configuration name="Lesson4.titleExists" configurationId="JUnit" />
+    <history-entry file="MyListTests_testSaveTwoArticlesToMyList - 2021.07.20 at 14h 53m 24s.xml">
+      <configuration name="MyListTests.testSaveTwoArticlesToMyList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Lesson4_saveTwoArticlesToMyList - 2021.07.12 at 14h 15m 23s.xml">
-      <configuration name="Lesson4.saveTwoArticlesToMyList" configurationId="JUnit" />
+    <history-entry file="MyListTests_testSaveTwoArticlesToMyList - 2021.07.20 at 17h 48m 10s.xml">
+      <configuration name="MyListTests.testSaveTwoArticlesToMyList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Lesson4_saveTwoArticlesToMyList - 2021.07.12 at 14h 17m 40s.xml">
-      <configuration name="Lesson4.saveTwoArticlesToMyList" configurationId="JUnit" />
+    <history-entry file="MyListTests_testTitleExists - 2021.07.20 at 18h 34m 19s.xml">
+      <configuration name="MyListTests.testTitleExists" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -284,10 +308,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.140826" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20945945" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -296,7 +320,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8016249" visible="true" weight="0.48973608" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8016249" weight="0.30058652" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -305,7 +329,7 @@
       <window_info anchor="bottom" id="SBT Console" order="8" weight="0.32991204" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32991204" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.19837509" side_tool="true" weight="0.36053413" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32886598" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32844576" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info active="true" anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.14759648" />
@@ -397,38 +421,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding>
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainClassTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/java-client-4.1.2.jar!/org/openqa/selenium/WebElement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -443,13 +435,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/selenium-server-standalone-3.4.0.jar!/org/openqa/selenium/support/ui/WebDriverWait.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/libs/junit-4.12.jar!/org/junit/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="556">
@@ -457,27 +442,145 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lesson3.java">
+    <entry file="file://$PROJECT_DIR$/src/lib.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2299">
-          <caret line="137" column="17" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/selenium-server-standalone-3.4.0.jar!/org/openqa/selenium/By.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="61" column="20" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/java-client-4.1.2.jar!/org/openqa/selenium/WebElement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainClassTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/selenium-server-standalone-3.4.0.jar!/org/openqa/selenium/By.class">
+    <entry file="file://$PROJECT_DIR$/src/Lesson4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="61" column="20" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="20" />
+        <state relative-caret-position="247">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lesson4.java">
+    <entry file="jar://$PROJECT_DIR$/libs/selenium-server-standalone-3.4.0.jar!/org/openqa/selenium/support/ui/WebDriverWait.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7">
-          <caret line="64" column="45" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="45" />
+        <state relative-caret-position="148">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/SearchTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/MyListTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="719">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/CoreTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/ui/SearchPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/ui/NavigationUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" selection-start-line="7" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/ui/MyListsPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="38" column="53" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2077#2078#0" expanded="true" />
+            <element signature="e#2152#2153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/ui/MainPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="80" column="39" selection-start-line="80" selection-start-column="39" selection-end-line="80" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/ui/ArticlePageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
